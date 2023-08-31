@@ -5,8 +5,10 @@ import Body from "./Body.js";
 
 const App = () =>  {
   return (
-    < Header />
-
+    <div>
+      < Header />
+      < Body />
+    </div>
   );
 }
 
