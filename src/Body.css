@@ -1,0 +1,52 @@
+.body {
+    position: relative;
+    overflow: hidden;
+}
+
+.smith-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: url('background-image.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Adjust opacity as needed */
+    z-index: -1;
+}
+
+.text-content {
+    position: relative;
+    z-index: 1;
+}
+
+.text-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-content p {
+    font-size: 18px;
+    margin: 0;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
