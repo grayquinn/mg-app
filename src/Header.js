@@ -5,12 +5,12 @@ const Header = () => {
         <div className="logo">
             <img className="logo-img" src={logo} alt="Company Logo" />
             <ul className="nav-list">
-                <li>Our Guarantee</li>
+                <li>OurGuarantee</li>
                 <li>Testimonials</li>
                 <li>News</li>
-                <li>Work Here</li>
-                <li>About Us</li>
-                <li>Buy Anvils</li>
+                <li>WorkHere</li>
+                <li>AboutUs</li>
+                <li>BuyAnvils</li>
             </ul>
         </div>
         
