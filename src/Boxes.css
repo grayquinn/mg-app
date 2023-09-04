@@ -1,20 +1,27 @@
 .box-container {
     display: flex;
+    justify-content: center; 
     justify-content: space-between;
-    align-items: center;
-    height: 45vh;
-    width: 75%;
-    left: 65px;
+    align-items: center; 
+    height: 40vh;
+    padding: 35px;
 }
 
 .box {
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    width: 150px; 
-    height: 150px; 
+    font-size: 25px;
+    font-weight: bold;
+    width: 380px; 
+    height: 300px; 
     background-color: black;
     color: white;
     display: flex;
     flex-direction: column-reverse; 
     padding: 10px; 
+    margin: 10px;
+}
+
+.box p {
+    padding: 10px;
+
 }

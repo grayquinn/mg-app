@@ -1,0 +1,18 @@
+.lorem-container {
+    display: flex;
+    justify-content: center;
+
+}
+    
+.paragraph{
+    display: flex;
+    justify-content: center;
+}
+
+.tx1{
+    display: inline-block;
+    font-size: 16px ;
+    margin-left: 30px;
+    white-space: pre-wrap;
+}
+

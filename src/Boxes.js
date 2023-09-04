@@ -2,15 +2,18 @@ import './Boxes.css'
 
 const Boxes = () => {
     return (
+        
     <div className="box-container">
         <div className="box">
-            <p>Our Guarantee</p>
+            <div className='box-content'>
+                <p>OUR GUARANTEE</p>
+            </div>
         </div>
         <div className="box">
-            <p>Our Promise</p>
+            <p>OUR PROMISE</p>
         </div>
         <div className="box">
-            <p>Our Assurance</p>
+            <p>OUR ASSURANCE</p>
         </div>
     </div>
     );
