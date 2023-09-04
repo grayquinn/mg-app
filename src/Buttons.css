@@ -15,24 +15,31 @@
 }
 .b1{
     font-family: "Raleway", sans-serif;
-    font: bold;
+    font-weight: bold;
     font-size: 25px;
-    margin-left: 40px;
+    margin-left: 105px;
     border-radius: 10px;
     background-color: #FFEE06;
+    padding: 10px;
     
 }
 
 .b2{
-    margin-right: 3px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
     font-size: 25px;
     border-radius: 10px;
     background-color: #FFEE06;
+    padding: 10px;
 }
 
 .b3{
-    margin-right: 445px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    margin-right: 470px;
     font-size: 25px;
     border-radius: 10px;
     background-color: #FFEE06;
+    padding: 10px;
 }
